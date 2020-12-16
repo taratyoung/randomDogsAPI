@@ -1,0 +1,100 @@
+body {
+
+    font-family: 'Questrial', sans-serif;
+}
+
+.text-container {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px; 
+}
+
+.text {
+    max-width: 60%;
+    text-align: center;
+    color: gray;
+}
+.text h2 {
+    font-weight: bold;
+}
+
+span {
+    font-weight: bolder;
+    color: rgba(67, 67, 67);
+}
+
+
+/* .random-dogs {
+    position: relative;
+    max-width: 500px;
+    height:auto;
+    border: 5px solid gray;
+    border-radius: 10px;
+    margin: auto;
+} */
+
+
+/* image background */
+.random-dogs {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    max-height: 500px;
+    /* padding: 100px; */
+    padding: 60px 0 60px 0;
+    background-color: rgba(95, 95, 95, 0.2);
+}
+
+
+.random-dogs div {
+    width: 100vw;
+    text-align: center;
+    
+}
+
+.random-dogs div img {
+    border: 10px solid white;
+    border-radius: 30px;
+    margin: auto;
+    /* max-width: 500px; */
+    width: auto;
+    max-height: 300px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.button-section {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+button {
+    background-color: rgba(67, 67, 67);
+    margin: 30px 0 30px;
+    color: #fff;
+    border: 2px solid rgba(67, 67, 67);
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: bolder;
+    padding: 5px 40px;
+    border-radius: 50px;
+}
+
+button:hover {
+    
+    background-color: #fff;
+    color: rgba(67, 67, 67);
+    /* background-color: gray; */
+    /* background-color: rgba(95, 95, 95, 0.6); */
+    
+}
+
+
+
